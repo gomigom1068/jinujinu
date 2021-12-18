@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PoseDetectionProto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,7 +31,7 @@
             <objects>
                 <viewController storyboardIdentifier="SelectViewSegue" id="LzF-Fs-EMg" customClass="SelectViewController" customModule="PoseDetectionProto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="SelectViewController" id="yzQ-CF-H01" customClass="SelectViewController">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="EOn-jy-LWe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -49,8 +49,8 @@
         <scene sceneID="4m6-uw-ckM">
             <objects>
                 <viewController storyboardIdentifier="PoseDetectView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jPq-SD-kH9" customClass="PoseDetectViewController" customModule="PoseDetectionProto" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Rbw-Oq-3CE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Rbw-Oq-3CE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="aP3-UZ-L08" userLabel="Video Preview">
@@ -58,8 +58,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s15-In-WOO" userLabel="Joint View" customClass="DrawingJointView" customModule="PoseDetectionProto">
-                                <rect key="frame" x="0.0" y="150" width="414" height="592"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s15-In-WOO" userLabel="Joint View" customClass="DrawingJointView" customModule="PoseDetectionProto">
+                                <rect key="frame" x="0.0" y="106" width="414" height="441"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" id="EXW-gc-7hT">
@@ -67,7 +67,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fps: xx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCe-OQ-iQ9" userLabel="Fps Label">
-                                        <rect key="frame" x="8" y="72.5" width="54" height="18"/>
+                                        <rect key="frame" x="8" y="72" width="54" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="UP4-b0-AYH"/>
                                         </constraints>
@@ -82,7 +82,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Execution: xxx ms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuq-Lv-bW4" userLabel="Etime Label">
-                                        <rect key="frame" x="8" y="48" width="136" height="20.5"/>
+                                        <rect key="frame" x="8" y="48" width="136" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
@@ -101,8 +101,8 @@
                                     <constraint firstItem="fCK-Ad-V9R" firstAttribute="leading" secondItem="EXW-gc-7hT" secondAttribute="leadingMargin" id="zKk-d3-AHi"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="30" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9iI-mP-F8Y">
-                                <rect key="frame" x="0.0" y="862" width="414" height="0.0"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="30" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9iI-mP-F8Y">
+                                <rect key="frame" x="0.0" y="667" width="414" height="0.0"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="separatorColor" red="0.39011933259999998" green="0.37626064329999998" blue="0.87450981139999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableView>
@@ -148,7 +148,7 @@
             <objects>
                 <viewController id="CXE-7A-SsD" customClass="ResultViewController" customModule="PoseDetectionProto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zlp-cW-v3k">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="lHB-YJ-NEN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -166,24 +166,43 @@
             <objects>
                 <viewController id="7wX-nx-Mlr" customClass="InformViewController" customModule="PoseDetectionProto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5hh-Db-K7w">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvx-lh-WmC">
+                                <rect key="frame" x="27" y="20" width="321" height="524"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="uqB-S3-qZ4">
+                                <rect key="frame" x="61" y="455" width="252" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="pageChange:" destination="7wX-nx-Mlr" eventType="valueChanged" id="wdF-r8-h4L"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="UEp-gd-xn5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Zqv-3S-M50"/>
                     <connections>
+                        <outlet property="imgView" destination="Xvx-lh-WmC" id="Iat-2O-2mA"/>
+                        <outlet property="pageControl" destination="uqB-S3-qZ4" id="zjA-6k-Ucn"/>
                         <segue destination="jPq-SD-kH9" kind="presentation" identifier="DetectViewSegue" modalPresentationStyle="fullScreen" id="r44-sh-Abi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g0X-C3-D8m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1609" y="98"/>
+            <point key="canvasLocation" x="1605.5999999999999" y="96.7016491754123"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+<<<<<<< Updated upstream
         <segue reference="Eis-Bj-rIa"/>
         <segue reference="knt-Tx-Y4U"/>
+=======
+        <segue reference="Rub-S0-8lx"/>
+>>>>>>> Stashed changes
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

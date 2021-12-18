@@ -34,6 +34,7 @@
 		9067391B274B56B90000EA9C /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9067391A274B56B90000EA9C /* logo.jpeg */; };
 		9067391D274B5FAF0000EA9C /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9067391C274B5FAF0000EA9C /* logo1.png */; };
 		90D5C487275907A4008851BE /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D5C486275907A4008851BE /* result.png */; };
+<<<<<<< Updated upstream
 		9E3504E8276E482E000030AE /* pushup_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504E5276E482E000030AE /* pushup_button.png */; };
 		9E3504E9276E482E000030AE /* squat_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504E6276E482E000030AE /* squat_button.png */; };
 		9E3504EA276E482E000030AE /* plank_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504E7276E482E000030AE /* plank_button.png */; };
@@ -44,6 +45,11 @@
 		9E3504F8276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F5276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png */; };
 		9E3504F9276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F6276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png */; };
 		9E3504FA276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F7276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png */; };
+=======
+		C5D6F2E3276E4A6D00283B4B /* squat02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5D6F2E0276E4A6D00283B4B /* squat02.jpeg */; };
+		C5D6F2E5276E4A6D00283B4B /* squat01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5D6F2E2276E4A6D00283B4B /* squat01.jpeg */; };
+		C5D6F2E7276E4B1200283B4B /* squat03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5D6F2E6276E4B1200283B4B /* squat03.jpeg */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +82,7 @@
 		9067391A274B56B90000EA9C /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = SOURCE_ROOT; };
 		9067391C274B5FAF0000EA9C /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		90D5C486275907A4008851BE /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result.png; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		9E3504E5276E482E000030AE /* pushup_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushup_button.png; sourceTree = "<group>"; };
 		9E3504E6276E482E000030AE /* squat_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squat_button.png; sourceTree = "<group>"; };
 		9E3504E7276E482E000030AE /* plank_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plank_button.png; sourceTree = "<group>"; };
@@ -86,6 +93,11 @@
 		9E3504F5276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-56-18 002.png"; sourceTree = "<group>"; };
 		9E3504F6276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-58-31.png"; sourceTree = "<group>"; };
 		9E3504F7276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-56-18 001.png"; sourceTree = "<group>"; };
+=======
+		C5D6F2E0276E4A6D00283B4B /* squat02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squat02.jpeg; sourceTree = "<group>"; };
+		C5D6F2E2276E4A6D00283B4B /* squat01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squat01.jpeg; sourceTree = "<group>"; };
+		C5D6F2E6276E4B1200283B4B /* squat03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = squat03.jpeg; path = ../../../../../../Downloads/squat03.jpeg; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +222,7 @@
 		90673919274B56880000EA9C /* image */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				9E3504EB276E4DD5000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 001.png */,
 				9E3504EC276E4DD5000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 002.png */,
 				9E3504ED276E4DD5000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 003.png */,
@@ -220,6 +233,11 @@
 				9E3504E5276E482E000030AE /* pushup_button.png */,
 				9E3504E6276E482E000030AE /* squat_button.png */,
 				9E3504F3276E5386000030AE /* 그림1.png */,
+=======
+				C5D6F2E2276E4A6D00283B4B /* squat01.jpeg */,
+				C5D6F2E0276E4A6D00283B4B /* squat02.jpeg */,
+				C5D6F2E6276E4B1200283B4B /* squat03.jpeg */,
+>>>>>>> Stashed changes
 				90D5C486275907A4008851BE /* result.png */,
 				905F17572758B2D8003856D7 /* information.png */,
 				9064735D274E0CCD0086EE25 /* burpee.png */,
@@ -300,15 +318,24 @@
 				90647362274E0CCD0086EE25 /* squat.png in Resources */,
 				9E3504EF276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 002.png in Resources */,
 				9067390F274B537E0000EA9C /* LaunchScreen.storyboard in Resources */,
+<<<<<<< Updated upstream
 				9E3504F4276E5387000030AE /* 그림1.png in Resources */,
 				9E3504F0276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 003.png in Resources */,
+=======
+				C5D6F2E3276E4A6D00283B4B /* squat02.jpeg in Resources */,
+>>>>>>> Stashed changes
 				90647360274E0CCD0086EE25 /* plank.png in Resources */,
+				C5D6F2E5276E4A6D00283B4B /* squat01.jpeg in Resources */,
 				9064735F274E0CCD0086EE25 /* lunge.png in Resources */,
 				9067390C274B537E0000EA9C /* Assets.xcassets in Resources */,
+<<<<<<< Updated upstream
 				9E3504EE276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 001.png in Resources */,
 				9E3504F9276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png in Resources */,
 				9E3504FA276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png in Resources */,
 				9E3504E9276E482E000030AE /* squat_button.png in Resources */,
+=======
+				C5D6F2E7276E4B1200283B4B /* squat03.jpeg in Resources */,
+>>>>>>> Stashed changes
 				9067391B274B56B90000EA9C /* logo.jpeg in Resources */,
 				90D5C487275907A4008851BE /* result.png in Resources */,
 				9E3504F8276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png in Resources */,
@@ -489,9 +516,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L6U78J7MGY;
+				DEVELOPMENT_TEAM = 9Y6T8SHB2C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PoseDetectionProto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 쓰고싶어요!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -502,7 +530,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eunseo.PoseDetectionProto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunseo222.PoseDetectionProto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -517,9 +545,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L6U78J7MGY;
+				DEVELOPMENT_TEAM = 9Y6T8SHB2C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PoseDetectionProto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 쓰고싶어요!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -530,7 +559,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eunseo.PoseDetectionProto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunseo222.PoseDetectionProto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
