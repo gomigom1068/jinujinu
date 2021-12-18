@@ -8,14 +8,29 @@
 import UIKit
 
 class InformViewController : UIViewController {
+    @IBOutlet var imgView: UIImageView!
+    @IBOutlet var pageControl: UIPageControl!
     
     var exerKind: String!
+    
+    var images = ["squat01", "squat02", "squat03"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        checkingView()
+        view.backgroundColor = .black
+        //checkingView()
+        
+        pageControl.numberOfPages = 3
+        pageControl.currentPage = 0
+        pageControl.pageIndicatorTintColor = UIColor.lightGray
+        pageControl.currentPageIndicatorTintColor = UIColor.black
+        imgView.image = UIImage(named: images[0])
+        
         addOKButton()
+        
+        if exerKind == "SQUAT"{
+            
+        }
         
     }
     
@@ -47,10 +62,10 @@ class InformViewController : UIViewController {
         let okButton = UIButton(frame: CGRect(x: view.frame.width * 0.4,
                                               y: view.frame.height * 0.8,
                                               width: view.frame.width * 0.2,
-                                              height: view.frame.height * 0.1))
+                                              height: view.frame.height * 0.05))
         okButton.setTitle("OK", for: UIControl.State.normal)
         okButton.setTitleColor(.white, for: UIControl.State.normal)
-        okButton.backgroundColor = .red
+        okButton.backgroundColor = .blue
         okButton.alpha = 0.7
         okButton.addTarget(self, action: #selector(toPoseDetectionView), for: UIControl.Event.touchUpInside)
         view.addSubview(okButton)
@@ -67,4 +82,8 @@ class InformViewController : UIViewController {
             }
         }
     }
+    @IBAction func pageChange(_ sender: UIPageControl) {
+        imgView.image = UIImage(named: images[pageControl.currentPage])
+    }
+    
 }
